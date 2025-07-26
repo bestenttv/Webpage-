@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Access Request – Contact Gain Form</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #4facfe, #00f2fe);
+      color: #333;
+      padding: 40px 20px;
+      margin: 0;
+    }
+    .container {
+      max-width: 500px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 15px;
+      padding: 30px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    }
+    h2 {
+      text-align: center;
+      color: #0077cc;
+    }
+    p {
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+    label {
+      font-weight: 600;
+      display: block;
+      margin-top: 15px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      margin-top: 5px;
+      font-size: 14px;
+    }
+    button {
+      margin-top: 20px;
+      width: 100%;
+      background-color: #0077cc;
+      color: white;
+      border: none;
+      padding: 12px;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #005fa3;
+    }
+    .info-box {
+      background: #f1f8ff;
+      padding: 15px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      font-size: 14px;
+    }
+    .disclaimer {
+      font-size: 12px;
+      color: gray;
+      text-align: center;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Complete Your Access Request</h2>
+    
+    <div class="info-box">
+      <strong>Step 1: Make a Transfer</strong><br/>
+      Bank: Opay<br/>
+      Account Name: Qoleed Alli<br/>
+      Account Number: <strong>8054693484</strong><br/>
+      Amount: ₦800<br/>
+      <em>Please ensure accuracy before submitting.</em>
+    </div>
+
+    <form action="https://formsubmit.co/bestenttvofficial@gmail.com" method="POST" enctype="multipart/form-data">
+      <input type="hidden" name="_redirect" value="https://yourwebsite.com/thankyou.html">
+      <input type="hidden" name="_captcha" value="false">
+
+      <label for="business-name">Business or Display Name</label>
+      <input type="text" id="business-name" name="Business Name" required>
+
+      <label for="whatsapp">WhatsApp Number</label>
+      <input type="tel" id="whatsapp" name="WhatsApp Number" required>
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="Email" required>
+
+      <label for="screenshot">Upload Payment Confirmation</label>
+      <input type="file" id="screenshot" name="Payment Screenshot" accept="image/*" required>
+
+      <button type="submit">Submit Form</button>
+    </form>
+
+    <p class="disclaimer">
+      This form is for contact gain verification only. By submitting, you agree that all details provided are accurate. No refunds are issued for incorrect submissions.
+    </p>
+  </div>
+</body>
+    </html>
