@@ -85,9 +85,11 @@
     </div>
 
     <form action="https://formsubmit.co/bestenttvofficial@gmail.com" method="POST" enctype="multipart/form-data">
-  <input type="hidden" name="redirectTo" value="https://bestenttv.github.io/Webpage-/submission-successful.html">
+  <!-- Redirect to your thank you page -->
+  <input type="hidden" name="_next" value="https://bestenttv.github.io/Webpage-/submission-successful.html">
+  
+  <!-- Disable CAPTCHA -->
   <input type="hidden" name="_captcha" value="false">
-
       <label for="business-name">Business or Display Name</label>
       <input type="text" id="business-name" name="Business Name" required>
 
