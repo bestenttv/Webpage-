@@ -1,0 +1,82 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Gain</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    .section {
+      padding: 3rem 1.5rem;
+      max-width: 900px;
+      margin: auto;
+      border-radius: 12px;
+      margin-bottom: 2rem;
+    }
+    .green { background-color: #e6f4ea; border-left: 8px solid #34a853; }
+    .blue { background-color: #e8f0fe; border-left: 8px solid #4285f4; }
+    .yellow { background-color: #fff8e1; border-left: 8px solid #fbbc04; }
+    .orange { background-color: #fff3e0; border-left: 8px solid #fb8c00; }
+    .purple { background-color: #f3e5f5; border-left: 8px solid #9c27b0; }h2 {
+  margin-top: 0;
+}
+.cta {
+  text-align: center;
+  margin-top: 2rem;
+}
+.cta a {
+  display: inline-block;
+  background-color: #34a853;
+  color: white;
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+.cta a:hover {
+  background-color: #2c8e46;
+}
+ul {
+  padding-left: 1.2rem;
+}
+ul li {
+  margin-bottom: 0.5rem;
+}
+
+  </style>
+</head>
+<body>  <section class="section green">
+    <h2>🟩 What is Contact Gain?</h2>
+    <p>Contact Gain is a smarter way to grow genuine, active WhatsApp contacts without relying on spammy promos or inactive link drops. It’s a system where one simple task earns access to a verified group of active people — no tricks, just real connection.</p>
+  </section>  <section class="section blue">
+    <h2>🟦 How It Started</h2>
+    <p>It wasn’t always this easy. The system was born from frustration — after facing bans, limitations, and broken strategies that didn’t work. At a point, access to key platforms was lost, and everything seemed to fall apart. But instead of giving up, the experience was used to build something better.</p>
+    <p>A platform that filters noise and rewards real effort. That’s how Contact Gain came to life.</p>
+  </section>  <section class="section yellow">
+    <h2>🟨 How It Works</h2>
+    <p>Contact Gain runs on one simple idea: do one small task → get verified → gain access.</p>
+    <p>Instead of joining endless promo groups with no engagement, each user completes a quick, easy task (like filling a form or sharing proof). Once verified, access is granted to a curated WhatsApp group filled with real, active contacts.</p>
+    <p>This keeps the community valuable and spam-free.</p>
+  </section>  <section class="section orange">
+    <h2>🟧 Why It’s Better Than Regular Promo</h2>
+    <ul>
+      <li>🔒 <strong>Verified Access</strong> — no random link drops or ghost groups</li>
+      <li>⚡ <strong>Real Engagement</strong> — groups are filled with active, interested members</li>
+      <li>🨠 <strong>Simple & Clear</strong> — one task. one reward. nothing confusing.</li>
+      <li>🇳🇬 <strong>Built for Nigerians</strong> — tailored to what actually works here</li>
+      <li>🔁 <strong>No Spamming</strong> — everyone earns their spot, so everyone brings value</li>
+    </ul>
+  </section>  <section class="section purple">
+    <h2>🞩 Ready to Get Started?</h2>
+    <p>Contact Gain isn’t just another promo idea — it’s a system that filters noise and rewards real effort. If the goal is real contacts, not empty numbers, this is the place to begin.</p>
+    <div class="cta">
+      <a href="#">👉 Start Now</a>
+    </div>
+  </section></body>
+</html>
